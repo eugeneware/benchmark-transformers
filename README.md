@@ -39,7 +39,7 @@ NB: GPU Fans were set to 99% using [coolgpus](https://github.com/andyljones/cool
 
 Led to GPU utilisation from 90-100%.
 
-![RTX 3090 vs Titan RTX Batch Size = 384](RTX 3090 vs Titan RTX MNLI Transformer Fine Tuning (bs=384).svg)
+![RTX 3090 vs Titan RTX Batch Size = 384](comparison-bs-384.svg)
 
 ## fp16 
 
@@ -131,7 +131,7 @@ Epoch: 100%|██████████████████████�
 
 Led to GPU utilisation of around 80-85%.
 
-![RTX 3090 vs Titan RTX Batch Size = 32](RTX 3090 vs Titan RTX MNLI Transformer Fine Tuning (bs=32).svg)
+![RTX 3090 vs Titan RTX Batch Size = 32](comparison-bs-32.svg)
 
 ## fp16 
 
