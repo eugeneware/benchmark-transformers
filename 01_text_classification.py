@@ -52,12 +52,12 @@ training_args = TrainingArguments(
     overwrite_output_dir=True,
     do_train=True,
     do_eval=False,
-    per_gpu_train_batch_size=32,
+    per_gpu_train_batch_size=384, # change this to 32 to test smaller batch size
     per_gpu_eval_batch_size=128,
     num_train_epochs=3,
     logging_steps=0,
     save_steps=0,
-    fp16=False,
+    fp16=True, # change this to False to test fp32
     fp16_opt_level='O2',
 )
 
