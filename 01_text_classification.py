@@ -1,3 +1,4 @@
+import torch
 import dataclasses
 import logging
 import os
@@ -18,6 +19,11 @@ from transformers import (
     glue_tasks_num_labels,
     set_seed,
 )
+
+# uncomment this code if you want to test with TF32 Ampere Support Disabled
+# disable TF32 https://pytorch.org/docs/master/notes/cuda.html#tf32-on-ampere
+# torch.backends.cuda.matmul.allow_tf32 = False
+# torch.backends.cudnn.allow_tf32 = False
 
 logging.basicConfig(level=logging.CRITICAL)
 logging.disable(logging.CRITICAL)
