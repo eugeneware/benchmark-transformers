@@ -1,0 +1,5 @@
+glue_data
+models
+runs
+wandb
+*.swp
